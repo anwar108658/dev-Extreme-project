@@ -1,11 +1,8 @@
-import './App.css'
-
+import 'devextreme/dist/css/dx.light.css';
+import Navbar from './components/Navbar/Navbar';
 function App() {
-
   return (
-    <>
-      <h1 className=''></h1>
-    </>
+      <Navbar/>
   )
 }
 
